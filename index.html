@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kartojimas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h2>About</h2>
+    <p>It can be intimidating for women to learn and ask questions when they are in an <span class="spanas">extreme minority</span>. While <br>
+        open and welcoming,today's budding   developer community is up to <span class="spanas">91% male</span>. If we can empower more<br> 
+        female with the confidence in their technological capabilities <span class="spanas">we can begin to change landscape</span>.
+    </p>
+    <h2>Our location</h2>
+    <ul>
+        <li class="listo-pirmas">USA</li>
+        <ul class="bulletas">
+            <li><span class="listo-antras">New York</span></li>
+            <li><span class="listo-antras">Columbus</span></li>
+            <li><span class="listo-antras">Austin</span></li>
+            <li><span class="listo-antras">Philly</span></li>
+        </ul>
+        <li class="listo-pirmas">World</li>
+        <ul class="bulletas">
+            <li><span class="listo-antras">Ottawa</span></li>
+            <li><span class="listo-antras">Sydney</span></li>
+        </ul>
+    </ul>
+    <h2>Upcoming Classes</h2>
+    <table>
+        <tr>
+            <th>Location</th>
+            <th>Topic</th>
+        </tr>
+        <tr>
+            <td class="stalo-pirmas">New York</td>
+            <td class="stalo-antras">JavaScript & jQuery</td>
+        </tr>
+        <tr>
+            <td class="stalo-pirmas">San Francisco</td>
+            <td class="stalo-antras">HTML & CSS</td>
+        </tr>
+    </table>
+    <h2>Sign up</h2>
+    <div class="potekste">
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+        </div>
+        <div>
+            <label for="vieta">Location:</label>
+            <select name="vieta" id="vieta">
+                <option label="San Francisco" value="San Francisco"></option>
+                <option label="New York" value="New York"></option>
+            </select>
+        </div>
+        <fieldset>
+            <legend>Gender</legend>
+            <div>
+                <label for="gender">Female</label>
+                <input type="radio" id="gender" name="gender">
+                <label for="gender">Male</label>
+                <input type="radio" id="gender" name="gender">
+            </div>
+        </fieldset>
+        <div>
+            <label for="komentarai">Komentarai, pastabos</label>
+            <div>
+                <textarea class="textas" id="komentarai" name="komentarai"></textarea>
+            </div>
+        </div>
+    </div>
+    <button type="submit">Sign up</button>
+</body>
+</html>
